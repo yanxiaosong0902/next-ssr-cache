@@ -16,7 +16,11 @@ export const getServerSideProps: GetServerSideProps<{ time: string }> = async ({
 }) => {
   res.setHeader(
     'Cache-Control',
-    'public, s-maxage=10, stale-while-revalidate=59'
+    'public, s-maxage=30, stale-while-revalidate=59'
+  )
+  res.setHeader(
+    'yanxiaosong',
+    'hahahahah'
   )
 
   return {
