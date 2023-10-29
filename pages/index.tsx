@@ -5,7 +5,7 @@ export default function Index({
 }: InferGetServerSidePropsType<typeof getServerSideProps>) {
   return (
     <main>
-      <h1>SSR Caching with Next.js</h1>
+      <h1>SSR Caching with Next.js123</h1>
       <time dateTime={time}>{time}</time>
     </main>
   )
